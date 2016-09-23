@@ -1,0 +1,116 @@
+
+/* import zocial icons for social media and google roboto fot header */
+
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+@import 'https://fonts.googleapis.com/css?family=Roboto:100,300,400';
+
+
+/* zocial */
+[class*="zocial-"]:before {
+   display: inline-block;
+   font-family: 'zocial', sans-serif;
+   text-shadow: 3px 3px 3px #aaa;
+   font-size: 18px;
+    }
+header {
+	box-sizing: border-box;
+	margin: 20px auto;
+	border-bottom: 2px solid #2d3c49;
+}
+footer {
+	border-top: 5px solid #2d3c49;
+	background: black;
+	min-height: 5em;
+}
+a {
+	display: block;
+	margin:0 5em 0 0;
+}
+
+.roboto_style {
+	font-family: 'Roboto', sans-serif;
+}
+.box {
+	font-family: 'Roboto', sans-serif;
+	font-weight: 300;
+}
+#logo {
+	max-width: 150px;
+	margin-left: 2em;
+}
+#logo:hover{
+	background-color: GhostWhite; 
+}
+
+#banner {
+	max-width: 70%;
+	margin: auto;
+}
+#social {
+	list-style-type: none;
+	line-height: 3em;
+	margin-top: 1em;
+	}
+
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+
+
+
+
+    /*==========  Mobile First Method  ==========*/
+
+        
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 200px) {
+    	h5 {
+    		font-size: 20px;
+    	}
+    	a  {
+    		display: inline-flex;
+    		margin: 0 3em 0 0;
+    		font-size: 16px;
+    	}
+    	#social {
+    		text-align: center;
+    	}
+    	.img_app {
+    		border:2px solid #2d3c49;
+    	}
+    	.box {
+    		font-size: 1.5em;
+    	}
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 700px) {
+    	h5 {
+    		font-size: 26px;
+    	}
+    	a  {
+    		font-size: 18px;
+    	}
+    	.img_app {
+    		border:none;
+    	}
+    	.box {
+    		font-size:28px;
+    	}
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+    	h5 {
+    		font-size: 30px;
+    	}
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    	h5 {
+    		font-size: 36px;
+    	}
+    }
+
+  
