@@ -14,3 +14,5 @@ Key features:
 ###Still need to fix:
 
 PageOptimization showing only 56/100 for mobile devices - main drawbacks: using Bootstrap and ajax scripts which decrease loading time. At present I don't have knowledge to implement changing this JS script. Hopefully, as I'll finish other projects and take JS class, this will get fixed.
+
+Update: for whatever reason github html previewer doesn't show svg logo, though running live from local host and remote server is fine.
